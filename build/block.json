@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "minimalio-blocks/minimalio-youtube",
+  "version": "1.0.0",
+  "title": "Youtube Iframe - Minimalio",
+  "category": "embeds",
+  "icon": "youtube",
+  "description": " Responsive Youtube iframe embeded with different aspect ratios",
+  "attributes": {
+    "video": {
+      "type": "string",
+      "default": ""
+    },
+    "aspect": {
+      "type": "string",
+      "default": "56.25%;"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "minimalio",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

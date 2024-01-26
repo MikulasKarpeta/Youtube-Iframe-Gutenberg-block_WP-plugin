@@ -1,8 +1,8 @@
 {
-	"name": "my-first-block",
-	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
+	"name": "minimalio-yotube-iframe",
+	"version": "1.0.0",
+	"description": " Responsive Youtube iframe embeded with different aspect ratios",
+	"author": "Minimalio",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
@@ -18,3 +18,4 @@
 		"@wordpress/scripts": "^27.0.0"
 	}
 }
+

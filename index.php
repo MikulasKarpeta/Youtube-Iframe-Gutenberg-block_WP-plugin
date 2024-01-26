@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function my_first_block_my_first_block_block_init() {
+function minimalio_youtube() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'my_first_block_my_first_block_block_init' );
+add_action( 'init', 'minimalio_youtube' );

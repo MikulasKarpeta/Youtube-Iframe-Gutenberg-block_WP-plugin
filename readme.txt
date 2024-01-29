@@ -20,7 +20,7 @@ Youtube Responsive Iframe Gutenberg block allows users to easily add a youtube v
 == Screenshots ==
 
 1. In preparation
-2. 
+2. In preparation
 
 == Changelog ==
 
